@@ -1,4 +1,4 @@
 package com.simos.core;
 
-public class Modulo {
+public class Sesion {
 }
