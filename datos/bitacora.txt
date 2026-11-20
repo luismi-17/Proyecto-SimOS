@@ -1,0 +1,36 @@
+FECHA | HORA | USUARIO | ACCIÓN | RESULTADO
+2026-11-20 | 16:42:07 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:42:14 | carlos | Inicio de sesión | PERMITIDO
+2026-11-20 | 16:42:16 | carlos | Ingreso al módulo 1 - Planificación de CPU | PERMITIDO
+2026-11-20 | 16:42:33 | carlos | Cierre de sesión | PERMITIDO
+2026-11-20 | 16:42:48 | admin | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:42:52 | admin | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:42:57 | admin | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:42:57 | admin | Usuario bloqueado por 3 intentos fallidos | DENEGADO
+2026-11-20 | 16:43:12 | admin | Inicio de sesión (usuario bloqueado) | DENEGADO
+2026-11-20 | 16:44:38 | admin | Inicio de sesión (usuario bloqueado) | DENEGADO
+2026-11-20 | 16:47:22 | admin | Inicio de sesión | PERMITIDO
+2026-11-20 | 16:47:26 | admin | Ingreso al módulo 5 - Usuarios, permisos y bitácora | PERMITIDO
+2026-11-20 | 16:47:28 | admin | Consultó la lista de usuarios | PERMITIDO
+2026-11-20 | 16:47:31 | admin | Consultó la lista de usuarios | PERMITIDO
+2026-11-20 | 16:47:49 | admin | Cierre de sesión | PERMITIDO
+2026-11-20 | 16:47:59 | admin | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:04 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:07 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:15 | carlos | Inicio de sesión | PERMITIDO
+2026-11-20 | 16:48:25 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:27 | s | Inicio de sesión (usuario inexistente) | DENEGADO
+2026-11-20 | 16:48:30 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:36 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:39 | d | Inicio de sesión (usuario inexistente) | DENEGADO
+2026-11-20 | 16:48:50 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:53 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:55 | carlos | Inicio de sesión (contraseña incorrecta) | DENEGADO
+2026-11-20 | 16:48:55 | carlos | Usuario bloqueado por 3 intentos fallidos | DENEGADO
+2026-11-20 | 16:49:19 | carlos | Inicio de sesión (usuario bloqueado) | DENEGADO
+2026-11-20 | 16:49:24 | admin | Inicio de sesión | PERMITIDO
+2026-11-20 | 16:49:33 | admin | Ingreso al módulo 5 - Usuarios, permisos y bitácora | PERMITIDO
+2026-11-20 | 16:49:37 | admin | Consultó la matriz de permisos | PERMITIDO
+2026-11-20 | 16:49:51 | admin | Consultó la bitácora | PERMITIDO
+2026-11-20 | 16:50:15 | admin | Desbloqueó al usuario carlos | PERMITIDO
+2026-11-20 | 16:50:22 | admin | Cierre de sesión | PERMITIDO
