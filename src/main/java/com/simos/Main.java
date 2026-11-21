@@ -34,5 +34,6 @@ public class Main {
 
         new MenuPrincipal(new Sesion(usuario, bitacora), modulos, control).iniciar();
     }
+
 }
 
