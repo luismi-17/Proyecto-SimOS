@@ -7,6 +7,7 @@ import com.simos.seguridad.*;
 
 import java.util.List;
 
+import com.simos.concurrencia.ModuloConcurrencia;
 import com.simos.core.ModuloProvisional;
 
 import java.util.ArrayList;
@@ -27,7 +28,7 @@ public class Main {
         // Cada responsable reemplaza su ModuloProvisional por su clase real
         List<Modulo> modulos = new ArrayList<>();
         modulos.add(new ModuloProvisional(1, "Planificación de CPU"));
-        modulos.add(new ModuloProvisional(2, "Concurrencia y sincronización"));
+        modulos.add(new ModuloConcurrencia());
         modulos.add(new ModuloProvisional(3, "Gestión de memoria"));
         modulos.add(new ModuloProvisional(4, "Almacenamiento (planificación de disco)"));
         modulos.add(new ModuloSeguridad(gestor, control, bitacora, modulos));
