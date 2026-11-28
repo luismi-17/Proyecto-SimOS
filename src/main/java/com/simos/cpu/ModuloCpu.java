@@ -94,9 +94,4 @@ public class ModuloCpu implements Modulo {
             }
         }
     }
-
-    // TEMPORAL: solo para probar el módulo solo. Bórralo al conectarlo al menú.
-    public static void main(String[] args) {
-        new ModuloCpu(new Scanner(System.in)).ejecutar(null);
-    }
 }
