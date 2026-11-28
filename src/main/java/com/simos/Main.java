@@ -3,6 +3,7 @@ package com.simos;
 import com.simos.core.MenuPrincipal;
 import com.simos.core.Modulo;
 import com.simos.core.Sesion;
+import com.simos.memoria.ModuloMemoria;
 import com.simos.seguridad.*;
 
 import java.util.List;
@@ -28,12 +29,11 @@ public class Main {
         List<Modulo> modulos = new ArrayList<>();
         modulos.add(new ModuloProvisional(1, "Planificación de CPU"));
         modulos.add(new ModuloProvisional(2, "Concurrencia y sincronización"));
-        modulos.add(new ModuloProvisional(3, "Gestión de memoria"));
+        modulos.add(new ModuloMemoria());
         modulos.add(new ModuloProvisional(4, "Almacenamiento (planificación de disco)"));
         modulos.add(new ModuloSeguridad(gestor, control, bitacora, modulos));
 
         new MenuPrincipal(new Sesion(usuario, bitacora), modulos, control).iniciar();
     }
-
 }
 
