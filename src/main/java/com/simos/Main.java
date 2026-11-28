@@ -3,6 +3,8 @@ package com.simos;
 import com.simos.core.MenuPrincipal;
 import com.simos.core.Modulo;
 import com.simos.core.Sesion;
+import com.simos.cpu.ModuloCpu;
+import com.simos.disco.ModuloDisco;
 import com.simos.memoria.ModuloMemoria;
 import com.simos.seguridad.*;
 
@@ -12,6 +14,7 @@ import com.simos.concurrencia.ModuloConcurrencia;
 import com.simos.core.ModuloProvisional;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
 
@@ -28,13 +31,12 @@ public class Main {
 
         // Cada responsable reemplaza su ModuloProvisional por su clase real
         List<Modulo> modulos = new ArrayList<>();
-        modulos.add(new ModuloProvisional(1, "Planificación de CPU"));
-        modulos.add(new ModuloProvisional(2, "Concurrencia y sincronización"));
+        modulos.add(new ModuloCpu(new Scanner(System.in)));
+        modulos.add(new ModuloConcurrencia());
         modulos.add(new ModuloMemoria());
-        modulos.add(new ModuloProvisional(4, "Almacenamiento (planificación de disco)"));
+        modulos.add(new ModuloDisco());
         modulos.add(new ModuloSeguridad(gestor, control, bitacora, modulos));
 
         new MenuPrincipal(new Sesion(usuario, bitacora), modulos, control).iniciar();
     }
 }
-
