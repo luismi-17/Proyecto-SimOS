@@ -8,6 +8,7 @@ import com.simos.seguridad.*;
 
 import java.util.List;
 
+import com.simos.concurrencia.ModuloConcurrencia;
 import com.simos.core.ModuloProvisional;
 
 import java.util.ArrayList;
